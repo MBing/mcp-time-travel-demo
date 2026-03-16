@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp"]
+    },
+    "playwright-recorded": {
+      "command": "npx",
+      "args": ["mcp-time-travel", "record", "--server", "playwright", "--config", ".mcp.json"]
+    },
+    "playwright-replay": {
+      "command": "npx",
+      "args": ["mcp-time-travel", "replay", "20260316-105608-JZgQPi", "--dir", ".mcp-time-travel"]
+    }
+  }
+}

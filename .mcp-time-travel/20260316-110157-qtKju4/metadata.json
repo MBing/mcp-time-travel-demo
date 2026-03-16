@@ -1,0 +1,15 @@
+{
+  "id": "20260316-110157-qtKju4",
+  "serverName": "playwright",
+  "serverConfig": {
+    "command": "npx",
+    "args": [
+      "@playwright/mcp"
+    ]
+  },
+  "startTime": "2026-03-16T11:01:57.427Z",
+  "endTime": "",
+  "toolCount": 0,
+  "tools": [],
+  "transport": "stdio"
+}
